@@ -5,17 +5,40 @@
       border-color: #e6e6e6;
     }
 
+    .carousel-inner .item img {
+      border: 2px solid #129CF3;
+      border-radius: 50%;
+      padding: 3px;
+      width: 35%;
+    }
+
+    .new-project-quote {
+      padding-top: 20px;
+      width: 100%;
+      padding-bottom: 80px;
+    }
+
+    .new-project-quote p {
+      color: #727272;
+      font-size: 15px;
+      width: 100%;
+    }
+
 }
 
 /* Small Devices and Tablets */
 @media only screen and (max-width: 768px) {
-  .header-iphone {
+  .header-stamp {
     display: none;
   }
   .header-text, .header-btns {
     text-align: center;
   }
-  .about-iphone img {
+  .about-project img {
+    width: 100%;
+  }
+  .new-project-quote {
+    padding-top: 20px;
     width: 100%;
   }
   .purchase-now .col-md-3 {

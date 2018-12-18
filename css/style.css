@@ -99,7 +99,7 @@ p {
 
 /* ========== Header =========== */
 .header {
-  background-image: url("../images/ruins.jpg");
+  background-image: url("../images/ruins.jpg"); width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -265,9 +265,19 @@ p {
   font-size: 15px;
 }
 
+.new-project-quote {
+  padding-top: 20px;
+  width: 85%;
+}
+
+.new-project-quote p {
+  color: #727272;
+  font-size: 15px;
+}
+
 /* ========== Testimonials ============ */
 .testimonial {
-  background-image: url("../images/green-river-station.jpg");
+  background-image: url("../images/green-river-station.jpg"); width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -445,8 +455,7 @@ p {
 
 /* ========== Counter ============ */
 .counter {
-  background-image: url("../images/moon.jpg");
-  background-image: 100%;
+  background-image: url("../images/moon.jpg"); width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
